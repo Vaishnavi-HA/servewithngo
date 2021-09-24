@@ -1,0 +1,93 @@
+<DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>print receipt using javascript</title>
+    <link rel="stylesheet" type="text/css" href="./printReceipt.css" />
+    <script type="text/javascript" src="./printReceipt.js"></script>
+</head>
+<body>
+    <div id="printReceiptHtml" class="margin_top float_left fullwidth">
+        <div>
+            <table class="float_right receipt_no_right">
+                <tr>
+                    <td class="receipt_right_side">Receipt number</td>
+                    <td class="padding_left5 padding_right5"> : </td>
+                    <td>124542151</td>
+                </tr>
+                <tr>
+                    <td class="receipt_right_side">Invoice number</td>
+                    <td class="padding_left5 padding_right5"> : </td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td class="receipt_right_side">Payment date </td>
+                    <td class="padding_left5 padding_right5"> : </td>
+                    <td>
+<p id="demo"></p>
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+</td>
+                </tr>
+                <tr>
+                    <td class="receipt_right_side"> Recipient</td>
+                    <td class="padding_left5 padding_right5"> : </td>
+                    <td>Laxman chavda</td>
+                </tr>
+            </table>
+            <div class="receipt_header_main  margin_top">
+                <div class="receipt_header_sub receipt_header_sub_head  paymentmain_table mainwidth">
+                    <div class="width_40  text_align_left">Description </div>
+                    <div class="width_20 text_align_center">Quantity</div>
+                    <div class="width_20 text_align_center">Price</div>
+                    <div class="width_20 text_align_center">Amount</div>
+                </div>
+                <div class="">
+                    <div class="receipt_desc mainwidth">
+                        <div class="width_40 text_align_left ">Item 1</div>
+                        <div class="width_20 text_align_center">2</div>
+                        <div class="width_20 text_align_center">5</div>
+                        <div class="width_20 text_align_center">10</div>
+                    </div>
+                    <div class="receipt_desc mainwidth">
+                        <div class="width_40 text_align_left ">Item 2</div>
+                        <div class="width_20 text_align_center">3</div>
+                        <div class="width_20 text_align_center">7</div>
+                        <div class="width_20 text_align_center">21</div>
+                    </div>
+                    <div class="receipt_desc mainwidth">
+                        <div class="width_40 text_align_left ">Item 3</div>
+                        <div class="width_20 text_align_center">1</div>
+                        <div class="width_20 text_align_center">3</div>
+                        <div class="width_20 text_align_center">3</div>
+                    </div>
+                    <div class="receipt_desc mainwidth">
+                        <div class="width_40 text_align_left ">Item 4</div>
+                        <div class="width_20 text_align_center">2</div>
+                        <div class="width_20 text_align_center">6</div>
+                        <div class="width_20 text_align_center">12</div>
+                    </div>
+                    <div class="receipt_desc mainwidth">
+                        <div class="width_40 text_align_left ">Item 5</div>
+                        <div class="width_20 text_align_center">10</div>
+                        <div class="width_20 text_align_center">5</div>
+                        <div class="width_20 text_align_center">50</div>
+                    </div>
+                    <div class="receipt_header_sub  text_align_center paymentmain_table mainwidth ">
+                        <div class="width_40">&nbsp; </div>
+                        <div class="width_20">&nbsp;</div>
+                        <div class="width_20 receipt_total"> Total amount</div>
+                        <div class="width_20">96</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="print">
+                        <button id="printButton" type="button" onclick="printReceipt()">Print</button>
+    </div>
+</body>
+</html>

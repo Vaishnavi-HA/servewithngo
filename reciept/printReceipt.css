@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+.float_right {
+    float: right
+}
+.margin_top {
+    margin-top: 10px;
+}
+.text_align_center {
+    text-align: center;
+}
+.padding_left5 {
+    padding-left: 5px;
+}
+.padding_right5 {
+    padding-right: 5px;
+}
+.margin_top5 {
+    margin-top: 5px;
+}
+.margin_bottom5 {
+    margin-bottom: 5px;
+}
+.receipt_no_right {
+    color: #555555;
+    font-size: 13px;
+}
+.receipt_header_main {
+    clear: both;
+    float: left;
+    max-height: 500px;
+    width: 100%;
+}
+.receipt_header_sub {
+    border-bottom: 1px solid #d6d6d6;
+    float: left;
+    font-size: 13px;
+    line-height: 40px;
+    width: 100%;
+}
+.receipt_header_sub_head {
+    background: #f7f7f7 none repeat scroll 0 0;
+    color: #155c9c !important;
+}
+.width_40 {
+    float: left;
+    font-weight: normal;
+    margin-bottom: 0;
+    width: 44%;
+    padding-left: 10px;
+}
+.width_20 {
+    float: left;
+    font-weight: normal;
+    margin-bottom: 0;
+    width: 18%;
+}
+.receipt_desc {
+    border-bottom: medium none;
+    color: #555555;
+    float: left;
+    font-size: 13px;
+    line-height: 40px;
+    width: 100%;
+}
+.receipt_total {
+    color: #555555
+}
+.receipt_right_side {
+    width: auto;
+    color: #155c9c;
+}
+.print {
+    padding-top: 10px;
+    clear: both;
+}

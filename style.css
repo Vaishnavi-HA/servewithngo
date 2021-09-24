@@ -1,0 +1,423 @@
+h1 {
+  margin-top: 30px;
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.home {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* background-color: #056676; */
+}
+
+.pg {
+  margin-top: 20px;
+  font-family: 'Merienda One', cursive;
+}
+
+.first {
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.footer {
+  position: relative;
+  bottom: 150px;
+  right: 400px;
+  color: #f3f0d7;
+  font-family: 'Lobster', cursive;
+  z-index: -1;
+  font-size: 3rem;
+  font-weight: 100;
+  line-height: 3rem;
+}
+
+.navbar {
+  padding-left: 50px;
+  padding-right: 60px;
+  background-color: #f3f0d7;
+  /* background-color: #EDF6E5; */
+  font-size: 1rem;
+  font-family: Lemon;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  font-family: Lemon;
+  margin-left: 20px;
+}
+
+.d-block {
+  min-width: 100%;
+  height: 30rem;
+}
+
+.second {
+  margin-top: 30px;
+  text-align: center;
+}
+
+#heading {
+  margin-top: 20px;
+  font-family: 'Merienda One', cursive;
+  color: black;
+}
+
+.login-title {
+  margin-top: 10px;
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+  font-weight: 100;
+  font-size: 5rem;
+}
+
+.card-img-top {
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.info {
+  min-width: 100%;
+  margin-left: 60px;
+  padding-right: 90px;
+  padding-left: 125px;
+}
+
+.card-title {
+  font-family: 'Merienda One', cursive;
+  font-weight: bold;
+}
+
+.form-control {
+  height: 41px;
+  background: #f2f2f2;
+  box-shadow: none;
+  border: none;
+}
+
+.form-control:focus {
+  background: #e2e2e2;
+}
+
+.form-control, .btn {
+  border-radius: 3px;
+}
+
+.signup-form {
+  width: 400px;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.signup-form form {
+  border-radius: 2px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: #ececec;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  position: relative;
+}
+
+.signup-form h2 {
+  color: #fff;
+  font-family: 'Merienda One', cursive;
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+.signup-form hr {
+  margin: 0 -30px 20px;
+}
+
+.signup-form .form-group {
+  margin-bottom: 20px;
+}
+
+.signup-form input[type="checkbox"] {
+  margin-top: 3px;
+}
+
+.signup-form .row div:first-child {
+  padding-right: 10px;
+}
+
+.signup-form .row div:last-child {
+  padding-left: 10px;
+}
+
+.signup-form .btn {
+  font-size: 16px;
+  font-weight: bold;
+  background: #70c5c0;
+  border: none;
+  min-width: 140px;
+  margin-right: 4px;
+}
+
+.signup-form .btn:hover, .signup-form .btn:focus {
+  background: #50b8b3;
+  outline: none;
+}
+
+.signup-form a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.signup-form a:hover {
+  text-decoration: none;
+}
+
+.signup-form form a {
+  color: #3598dc;
+  text-decoration: none;
+}
+
+.signup-form form a:hover {
+  text-decoration: underline;
+}
+
+.signup-form .hint-text {
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.bg-image {
+  background-image: url("images/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.head {
+  font-family: 'Merienda One', cursive;
+  font-size: 7rem;
+  font-weight: 100;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form-control {
+  min-height: 41px;
+  background: #fff;
+  box-shadow: none;
+  border-color: #e3e3e3;
+}
+
+.form-control:focus {
+  border-color: #70c5c0;
+}
+
+.form-control, .btn {
+  border-radius: 2px;
+}
+
+.login-form {
+  width: 350px;
+  margin: 0 auto;
+  padding: 100px 0 30px;
+}
+
+.login-form form {
+  border-radius: 2px;
+  margin-bottom: 15px;
+  font-size: 13px;
+  background: #ececec;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  position: relative;
+}
+
+.login-form h2 {
+  font-size: 22px;
+  margin: 35px 0 25px;
+}
+
+.login-form .avatar {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: -50px;
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  z-index: 9;
+  background: #70c5c0;
+  padding: 15px;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.login-form .avatar img {
+  width: 100%;
+}
+
+.login-form input[type="checkbox"] {
+  position: relative;
+  top: 1px;
+}
+
+.login-form .btn, .login-form .btn:active {
+  font-size: 16px;
+  font-weight: bold;
+  background: #70c5c0;
+  border: none;
+  margin-bottom: 20px;
+  margin-right: 4px;
+}
+
+.login-form .btn:hover, .login-form .btn:focus {
+  background: #50b8b3;
+}
+
+.login-form form a {
+  color: #7a7a7a;
+  text-decoration: none;
+}
+
+.login-form form a:hover {
+  text-decoration: underline;
+}
+
+.login-form .bottom-action {
+  font-size: 14px;
+}
+
+.task {
+  font-size: 30px;
+  font-family: 'Merienda One', cursive;
+  padding-top: 30px;
+}
+
+p.task {
+  font-size: 20px;
+  font-family: 'Merienda One', cursive;
+}
+
+.taskbtn {
+  background: #70c5c0;
+  padding: 3px 5px;
+  margin-right: 4px;
+}
+
+.btn-bloc:hover {
+  background: #50b8b3;
+}
+
+.donoritempage {
+  font-family: 'Merienda One', cursive;
+  margin-top: 30px;
+}
+
+.profile {
+  font-size: 20px;
+  font-family: 'Merienda One';
+  text-align: center;
+  padding-left: 20px;
+}
+
+.line {
+  border: 4px solid black;
+}
+
+.amt-img h3 {
+  margin-top: 50px;
+  font-family: 'Merienda One', cursive;
+  color: #fff;
+  line-height: 3rem;
+}
+
+.amt-img h4 {
+  font-family: 'Merienda One', cursive;
+}
+
+.delete-form h3 {
+  margin-top: 50px;
+  font-family: 'Merienda One', cursive;
+}
+
+.yyy {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Merienda One', cursive;
+}
+
+.aaa {
+  /* min-width:100%; */
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Merienda One', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #393E46;
+  margin-top: 30px;
+}
+
+.reciept {
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: 'Calibri';
+  padding-left: 50px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img {
+  width: 50px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+}
+
+#myChart {
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+#myChart1 {
+  margin-top: 100px;
+  margin-left: 70px;
+}
+
+.graph-ex {
+  margin-top: 190px;
+  font-size: 1.5rem;
+  margin-left: 70px;
+  font-family: 'Merienda One', cursive;
+}
+
+.graph-text {
+  font-family: 'Merienda One', cursive;
+  padding-top: 50px;
+}
+
+.mm {
+  background-color: #f3f0d7;
+  min-width: 100%;
+  margin-bottom: 40px;
+  margin-top: 100px;
+  padding-bottom: 70px;
+  margin-right: 0;
+  text-align: center;
+}
+
+.button {
+  color: #056676;
+  font-weight: bold;
+}
